@@ -36,6 +36,5 @@ app.listen(port, () => {
 });
 
 
-export default app;
-
-export default pool;
+//export default app;
+module.exports= pool;
