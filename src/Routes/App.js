@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 const port = 3000;
-const controller= require('./connection');
+const controller= require('../connection');
 
 //middlewares
 app.use(bodyParser.json());
